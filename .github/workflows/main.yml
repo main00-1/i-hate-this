@@ -1,1 +1,15 @@
-MATUSHKA
+# event name
+name: LAMO
+# event action type 
+on: 
+  push:
+    branches:
+      - main 
+
+jobs:
+# job name
+  LOL:
+    runs-on: ubuntu-latest
+  steps:
+  - name: I HATE this
+    run: echo "FUUUUUUUUUUCK"  
